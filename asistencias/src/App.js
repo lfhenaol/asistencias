@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
-import {Registro} from './Registro';
+import {RegistroUsuario} from './RegistroUsuario';
 
 class App extends Component {
   render() {
       return (
-          <Registro />
+          <div className="container">
+              <RegistroUsuario />
+          </div>
       );
   }
 }
