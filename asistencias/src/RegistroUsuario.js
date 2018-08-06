@@ -6,7 +6,7 @@ export class RegistroUsuario extends Component {
     constructor(props){
         super(props);
         this.state = {
-            codigo: '',
+            cédula: '',
             nombreUno: '',
             nombreDos: '',
             apellidoUno: '',
@@ -18,7 +18,7 @@ export class RegistroUsuario extends Component {
     render() {
         return (
             <div>
-                <h2>Registro de usuarios</h2>
+                <h2>Registro de usuario</h2>
                 <FormularioRegistroUsuario/>
                 <Boton nombre="Aceptar"/>
             </div>

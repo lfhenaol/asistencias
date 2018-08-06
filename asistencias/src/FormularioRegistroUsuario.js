@@ -12,7 +12,7 @@ export class FormularioRegistroUsuario extends Component {
                     <div className="row">
                         <div className="input-field col s12">
                             <input id="codigo" type="text" className="validate"/>
-                            <label htmlFor="codigo">Código</label>
+                            <label htmlFor="codigo">Cédula</label>
                         </div>
                         <div className="input-field col s6">
                             <input id="primer_nombre" type="text" className="validate"/>
