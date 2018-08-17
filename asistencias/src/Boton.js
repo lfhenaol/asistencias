@@ -1,15 +1,22 @@
 import React, {Component} from 'react';
 
-export class Boton extends Component{
+export const Boton = ({ nombre, onClick, type }) => (
+    <button type={type} className="waves-effect waves-light btn" onClick={onClick}>
+        <i className="material-icons left">cloud</i>
+        {nombre}
+    </button>
+);
+
+/*export class Boton extends Component{
     render() {
         return (
-            <a className="waves-effect waves-light btn">
+            <button type="submit" className="waves-effect waves-light btn">
                 <i className="material-icons left">cloud</i>
                 {this.props.nombre}
-            </a>
+            </button>
         );
     }
-}
+}*/
 
 Boton.defaultProps = {
     nombre: 'Soy un bello botón'

@@ -20,7 +20,7 @@ export class RegistroUsuario extends Component {
             <div>
                 <h2>Registro de usuario</h2>
                 <FormularioRegistroUsuario/>
-                <Boton nombre="Aceptar"/>
+
             </div>
         );
     }
